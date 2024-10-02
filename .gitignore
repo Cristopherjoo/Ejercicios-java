@@ -1,0 +1,27 @@
+# Archivos de bytecode
+*.class
+
+# Directorios de construcción
+target/
+bin/
+out/
+
+# Archivos de paquete
+*.jar
+*.war
+*.ear
+
+# Configuración de IDE
+.vscode/
+.idea/
+*.iml
+
+# Archivos de registro
+*.log
+
+# Archivos temporales
+*.tmp
+*.swp
+
+# Archivos del sistema
+*.DS_Store
