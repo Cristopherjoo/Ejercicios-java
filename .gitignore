@@ -15,6 +15,11 @@ out/
 .vscode/
 .idea/
 *.iml
+.classpath
+.project
+.settings/
+org.eclipse.*.prefs
+.metadata/
 
 # Archivos de registro
 *.log
@@ -22,6 +27,15 @@ out/
 # Archivos temporales
 *.tmp
 *.swp
+*.bak
 
 # Archivos del sistema
 *.DS_Store
+Thumbs.db
+
+# Archivos de configuración de Maven
+/.mvn/
+
+# Archivos de configuración de Gradle
+.gradle/
+build/
