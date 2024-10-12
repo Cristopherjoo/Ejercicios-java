@@ -10,7 +10,6 @@ public class Caracteres {
         System.out.print("País:" + tabulacion + "Chile");
 
         // Caracteres individuales
-
         char letraZ = 'Z'; // Letra
         char simboloPorcentaje = '%'; // Símbolo
         char numero3 = '3'; // Número
@@ -21,7 +20,6 @@ public class Caracteres {
         char asterisco = '*'; // Asterisco
 
         // Mostrar todos los caracteres
-
         System.out.println("\n\nLetra: " + letraZ);
         System.out.println("Símbolo Porcentaje: " + simboloPorcentaje);
         System.out.println("Número: " + numero3);

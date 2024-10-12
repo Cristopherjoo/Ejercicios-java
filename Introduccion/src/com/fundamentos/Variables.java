@@ -1,5 +1,9 @@
 public class Variables {    
     public static void main(String[] args) {
+        // Constantes
+        final int MAX_EDAD = 150; // Máxima edad permitida
+        final double PI = 3.14159; // Valor de PI
+
         // Tipos primitivos
         // byte: almacena valores entre -128 y 127
         byte edadPositiva = 127;        
@@ -34,6 +38,10 @@ public class Variables {
         boolean noEsEstudiante = false;   
 
         // Imprimir los valores
+        System.out.println("Constantes:");
+        System.out.println("MAX_EDAD: " + MAX_EDAD);
+        System.out.println("PI: " + PI);
+        System.out.println("\nTipos Primitivos:");
         System.out.println("byte: " + edadPositiva + ", " + edadNegativa);
         System.out.println("short: " + temperaturaPositiva + ", " + temperaturaNegativa);
         System.out.println("int: " + poblacionPositiva + ", " + poblacionNegativa);
